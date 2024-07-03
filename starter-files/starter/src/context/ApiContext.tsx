@@ -6,11 +6,12 @@ interface ChildrenProps {
   }
   
 export interface Review {
-    author: string;
-    rating: number;
-    comment: string;
-    date: string;
-    stars?: number
+  id: number | undefined;
+  author: string | undefined;
+  rating: number | undefined;
+  comment: string | undefined;
+  date?: string;
+  stars: number | undefined;
   }
   
   interface Restaurant {
