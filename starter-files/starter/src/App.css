@@ -73,8 +73,25 @@ footer{
 }
 .cardContainer{
   display: flex;
-  justify-content: start;
-  align-items: center;
+  justify-content: center;
+  align-items: start;
   flex-wrap: wrap;
   width: 100%;
+  gap: 1rem;
+}
+.card{
+  border: 1px solid black;
+  width: 20%;
+}
+
+.restaurant-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+.allRestaurantsSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
